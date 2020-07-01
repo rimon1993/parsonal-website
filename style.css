@@ -9,7 +9,7 @@ body {
 
 section {
 
-    height: 400px;
+    height: 500px;
     padding-bottom: 100px;
     
 }
@@ -18,18 +18,21 @@ h1 {
     font-family: 'Oswald', sans-serif;
 
     font-size: 50px;
+    font-weight: 700;
 
 }
 
 h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
+    font-weight: 700;
 
 }
 
 h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
+    font-weight: 700;
 }
 
 .top-header-background-img {
@@ -45,13 +48,9 @@ h3 {
     height: 100%;
 }
 
-img{
+.name-color{
 
-    width: 350px;
-    height: 500px;
-    
-
-    
+    color:#F51678;
 }
 
 .half-width {
@@ -59,18 +58,17 @@ img{
     width: 40%;
     float: left;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 2%;
     background-color: white;
+    
 
     
 }
 
-.name-color{
-
-    color:#F51678;
-    font-weight: bold;
+.half-width img{
+    width: 100%;
+    
 }
-
 
 
 .button-link{
@@ -80,7 +78,7 @@ img{
     padding: 10px 20px;
     border-radius: 5px;
     color:white;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 
@@ -104,62 +102,20 @@ img{
 
 .latest-work-backgrown-img img{
     width: 100%;
+    
 }
 .latest-work{
     text-align: center;
     font-size: 40px;
-    font-weight: bold;
 }
 
 .working-website-portfolio img{
     
-    width: 250px;
+    width: 300px;
     height: 250px;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-
-.admin-address{
-    font-weight: 900;
-    text-align: center;
-    font-size: 40px;
-}
-
-.admin-address h2 {
-    font-weight: 800;
-}
-
-.ceo{
-    text-align: center;
-    font-weight: bold;
-}
-
-.ceo h3{
-    font-size: 30px;
-    
-
-
-}
-
-.ceo p{
-    color: #434242;
-}
-
-.content{
-
-    width: auto;
-    text-align: center;
-    color: white;
-    box-shadow: 10px 10px 40px;
-    border-radius: 5px;
-    height: 25%;
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color:#F51678 ;
-    padding: 20px 10px;
-   
 }
 
 .client-area{
@@ -172,6 +128,40 @@ img{
 .client-area img{
     width: 100%;
 }
+
+.admin-address{
+    
+    text-align: center;
+    
+}
+
+
+.ceo{
+
+    text-align: center;
+    
+}
+
+
+.ceo p{
+    color: #434242;
+}
+
+.content{
+
+    width: auto;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    height: 25%;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:#F51678 ;
+    padding: 20px 10px;
+   
+}
+
+
 .footer-bar{
 
     color:black;   
@@ -180,5 +170,6 @@ img{
 
 .email {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
+
 }
