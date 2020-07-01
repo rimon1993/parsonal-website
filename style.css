@@ -6,17 +6,12 @@ body {
 
 }
 
-.top-header {
 
-    background-image: url(img/header-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+section {
 
-}
-
-.top-header img{
-
-    height: 100%;
+    height: 400px;
+    padding-bottom: 100px;
+    
 }
 
 h1 {
@@ -37,15 +32,25 @@ h3 {
     font-size: 30px;
 }
 
-.name-color{
+.top-header-background-img {
 
-    color:#F51678;
-    font-weight: bold;
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
-section {
 
-    height: 400px;
-    padding-bottom: 100px;
+.top-header-background-img img{
+
+    height: 100%;
+}
+
+img{
+
+    width: 350px;
+    height: 500px;
+    
+
     
 }
 
@@ -54,28 +59,31 @@ section {
     width: 40%;
     float: left;
     margin-left: 5%;
-    margin-right: 2%;
+    margin-right: 5%;
     background-color: white;
+
     
 }
 
-.button{
+.name-color{
+
+    color:#F51678;
+    font-weight: bold;
+}
+
+
+
+.button-link{
 
     text-decoration: none;
     background-image: linear-gradient(45deg, #F51678, #F51678 );
     padding: 10px 20px;
     border-radius: 5px;
-    color:wheat;
+    color:white;
     font-weight: bolder;
 }
 
-img{
 
-    width: 500px;
-    height: 500px;    
-
-    
-}
 
 .biography{
     background-image: url(img/biography-bg.png);
@@ -105,11 +113,11 @@ img{
 
 .working-website-portfolio img{
     
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     float: left;
     margin-left: 5%;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 
 
@@ -166,7 +174,7 @@ img{
 }
 .footer-bar{
 
-    color: #434242;   
+    color:black;   
     text-align: center; 
 }
 
