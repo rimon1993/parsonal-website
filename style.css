@@ -2,6 +2,7 @@ body {
     
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: white;
 
 }
 
@@ -47,10 +48,6 @@ h3 {
 
 }
 
-.top-header-background-img img{
-
-    height: 100%;
-}
 
 .name-color{
 
@@ -63,7 +60,7 @@ h3 {
     float: left;
     margin-left: 5%;
     margin-right: 2%;
-    background-color: white;
+
     
 
     
@@ -88,7 +85,7 @@ h3 {
 
 
 
-.biography{
+.biography {
     
     background-image: url(img/biography-bg.png);
     background-repeat: no-repeat;
@@ -96,10 +93,7 @@ h3 {
 
 }
 
-.biography img{
-    
-    width: 100%;
-}
+
 .latest-work-backgrown-img{
     
     background-image: url(img/latest-work-bg.png);
@@ -108,11 +102,6 @@ h3 {
 
 }
 
-.latest-work-backgrown-img img{
-    
-    width: 100%;
-    
-}
 .latest-work{
     
     text-align: center;
@@ -135,10 +124,6 @@ h3 {
     background-position: left;
 }
 
-.client-area img{
-    
-    width: 100%;
-}
 
 .admin-address{
     
