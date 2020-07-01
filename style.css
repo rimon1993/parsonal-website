@@ -10,6 +10,13 @@ body {
 
     background-image: url(img/header-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.top-header img{
+
+    height: 100%;
 }
 
 h1 {
@@ -73,15 +80,30 @@ img{
 .biography{
     background-image: url(img/biography-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
+
 }
 
+.biography img{
+    width: 100%;
+}
+.latest-work-backgrown-img{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.latest-work-backgrown-img img{
+    width: 100%;
+}
 .latest-work{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
 }
 
-.working-website img{
+.working-website-portfolio img{
     
     width: 350px;
     height: 350px;
@@ -118,24 +140,37 @@ img{
 }
 
 .content{
+
+    width: auto;
     text-align: center;
     color: white;
-    font-weight: bold;
-    background-color: #F51678;
-    
-    width: 500px;
-    padding: 10px;
-    border: solid #F51678;
-    margin: 0;
-    position: relative;
-    left: 410px;
-  
+    box-shadow: 10px 10px 40px;
+    border-radius: 5px;
+    height: 25%;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:#F51678 ;
+    padding: 20px 10px;
    
 }
 
+.client-area{
+    
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.client-area img{
+    width: 100%;
+}
 .footer-bar{
 
     color: #434242;   
     text-align: center; 
+}
+
+.email {
+    font-size: 20px;
+    font-weight: 700;
 }
